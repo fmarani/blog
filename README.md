@@ -1,2 +1,3 @@
-# fmarani.github.io
 # blog
+
+done using Hugo
