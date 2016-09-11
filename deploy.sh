@@ -5,6 +5,8 @@ echo -e "\033[0;32mDeploying updates to Github...\033[0m"
 # Build the project.
 hugo
 
+cd public
+
 # Add changes to git.
 git add -A
 
@@ -18,7 +20,4 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
-# push built site
-cd public
-git push origin master
 cd ..
