@@ -5,8 +5,8 @@ title = "Side Projects"
 
 Some of the things I enjoyed building throughout the years, some opensource some not:
 
-- http://invoicecart.com
--  coolc: A compiler for a language called COOL, which I eventually will finish. Writing compilers is hard.
+- invoicecart: a tool to automatically download invoices of advertising expenses from Facebook, Twitter and Linkedin.
+- coolc: A compiler for a language called COOL, which I eventually will finish. Writing compilers is hard.
 - tunnelchat: a prototype of a chat system inspired by Hipchat/Slack.
 - ligra: a object to graph mapper, similar to an ORM in concept, that was targeting Neo4J.
 - comprotempo: similar to taskrabbit, it was an attempt to create a marketplace for handymen in Italy.
