@@ -1,0 +1,10 @@
+baseurl = "http://flagzeta.org/"
+languageCode = "en-us"
+title = "Blog | Federico Marani"
+theme = "crisp"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[params]
+DateFormat = "2 Jan 2006"
+description = "Coder, open-source enthusiast, command-line addict. CTO at TalentRank. Former Head of Engineering @TrialReach"
+author = "Federico Marani"

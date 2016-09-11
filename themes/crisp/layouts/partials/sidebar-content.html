@@ -1,0 +1,17 @@
+<header id="header">
+    <a id="logo" href="/"><img src="{{ .Site.BaseURL }}/img/me.png" alt="me" /></a>
+    <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
+    <p>{{ .Site.Params.description }}</p>
+    <div id="follow-icons">
+        <a href="http://twitter.com/flagZ"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="http://uk.linkedin.com/in/federicomarani"><i class="fa fa-linkedin-square fa-2x"></i></a>
+        <a href="http://github.com/fmarani"><i class="fa fa-github-square fa-2x"></i></a>
+        <a href="mailto:flagzeta@gmail.com"><i class="fa fa-envelope-square fa-2x"></i></a>
+        <a href="{{ .RSSlink }}"><i class="fa fa-rss-square fa-2x"></i></a> 
+    </div>                                                                  
+    {{ range .Site.Pages }}
+        {{ if eq .Type "page"}}
+        <h6><a href="{{.Permalink}}">{{ .Title }}</a></h6>
+        {{ end }}
+    {{ end }}
+</header>

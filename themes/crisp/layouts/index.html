@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar-content.html" . }}
+
+
+		<main id="content">
+                        {{ range .Data.Pages }}
+                            {{ if eq .Type "blog"}}
+                        <section>
+                            <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a><span class="separator"> &middot; </span>{{ .Date.Format .Site.Params.DateFormat }} <span class="taglist">
+                                {{ range $index, $element := .Params.tags }}{{ $element }} {{ end }}
+                                </span></h3>
+                        </section>
+                              {{ end }}
+                        {{ end }}
+		</main>
+
+{{ partial "footer.html" . }}
