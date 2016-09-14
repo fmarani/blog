@@ -21,6 +21,6 @@ cd ..
 echo -e "\033[0;32mDeploying updates to IPFS...\033[0m"
 
 scp -r public/ flagz@apps.flagzeta.org:flagzeta_org
-hash=`ssh flagz@apps.flagzeta.org ipfs add -r -q flagzeta_org`
+hash=`ssh flagz@apps.flagzeta.org ipfs add -r -q flagzeta_org | tail -1`
 ssh flagz@apps.flagzeta.org ipfs name publish $hash
 
