@@ -1,8 +1,8 @@
-baseurl = "http://flagzeta.org/"
 languageCode = "en-us"
 title = "Blog | Federico Marani"
 theme = "crisp"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+relativeurls = true
 
 [params]
 DateFormat = "2 Jan 2006"
