@@ -1,6 +1,7 @@
 +++
 date = "2017-03-18T16:30:28Z"
 title = "Minimalism is how startups keep the focus"
+tags = ["startups", "minimalism"]
 
 +++
 
