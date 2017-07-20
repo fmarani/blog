@@ -48,4 +48,3 @@ Worth mentioning are the Hooks (Connections in the UI) and Variables. This is a 
 
 One last thing is XCom. The architecture of Airflow is built in a way that tasks have complete separation from any other tasks in the same DAG. The only truth that you can assert is that all tasks that the current task depends on are guaranteed to be executed. Besides that, there is no implicit way to pass dynamic data between tasks at execution time of the DAG. If you want to do so, you need to use XCom. XCom is a simple key/value store API that uses the Airflow DB, and it's available for querying when a task is being executed. It is generally helpful if, for instance, you generate temporary files/dirs and you want the following tasks to use the dynamically generated file paths.
 
-In the next blog post I will write about backfills and how they work. It is an advanced, and complex, topic and it deserves to be treated on its own. Stay tuned!
