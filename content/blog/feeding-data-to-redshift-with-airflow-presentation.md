@@ -8,6 +8,6 @@ The presentation I gave at Europython 2017 in Rimini. The talk is divided in 3 p
 
 <script async class="speakerdeck-embed" data-id="380d0b967be44504b386b01b34de1fe5" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-And also the video of the presentation: (starts at 3m 45s)
+And also the video of the presentation:
 
-<iframe width="1024" height="576" src="https://www.youtube.com/embed/QDibKJzS3NQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube.com/embed/0s6lmVbvoFo" frameborder="0" allowfullscreen></iframe>
