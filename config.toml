@@ -4,6 +4,7 @@ theme = "crisp"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 relativeurls = true
 paginate = 20
+baseurl = "/"
 
 [author]
 name = "Federico Marani"
