@@ -1,19 +1,42 @@
-{{ partial "header.html" . }}
-{{ partial "sidebar-content.html" . }}
+<!DOCTYPE html>
+<html lang="{{.Site.LanguageCode}}">
+    <head>
+        {{ partial "header.html" . }}
+    </head>
+    <div id="layout" class="pure-g">
+        <div class="sidebar pure-u-1 pure-u-md-1-6">
+            {{ partial "sidebar.html" . }}
+        </div>
+        <div class="content pure-u-1 pure-u-md-5-6">
+            <div class="article singlepage" id="{{ .Slug }}" class="{{ .Type }}">
+                <div class="post-stamp">
+                    <h1 class="post-title">{{ .Title }}</h1>
+                    <span class="post-date">{{ .Date.Format "Jan 2, 2006" }}{{ if not .Site.Params.hideReadingTime }} &middot; {{ .ReadingTime }} minute read{{ end }}</span>
+                    {{ if isset .Params "categories" }}
+                        <span class="taglist">
+                            {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}
+                        </span>
+                    {{ end }}
 
-<article>
-    <div class="post-stamp">
-        {{ .Date.Format .Site.Params.DateFormat }}
-        <span class="taglist">&middot;
-            {{ range $index, $element := .Params.tags }}{{ $element }} {{ end }}
-        </span>
-    </div>
-	<h1 class="post-title">{{.Title}}</h1>
-        <div class="blogpost-old" style="display: none">
+                    <span class="taglist">
+                    {{if .Params.tags }}
+                        &middot;
+                        {{ range $index, $tag := .Params.tags }}
+                            <a href="/tags/{{ $tag | urlize }}/">{{ $tag }}</a>
+                        {{ end }}
+                    {{ end }}
+                    </span>
+                </div>
+        <div id="blogpost-old" style="display: none">
             This post is quite old... Technologies and techniques described here might not apply anymore.
         </div>
-	{{.Content}}
-</article>  
+                {{ .Content }}
+                {{ if .Site.Params.share }}
+                    {{ if ne .Site.Params.share "none" }}
+                        {{ partial "share.html" . }}
+                    {{ end }}
+                {{ end }}
+                {{ partial "comments.html" . }}
 <p>
 <a href="https://news.ycombinator.com/submit" class="hn-button">Vote on Hacker News</a>
 </p>
@@ -23,8 +46,13 @@
 var cutoffTime = new Date().getTime() - (2 * 365 * 24 * 60 * 60 * 1000);
 var postTime = new Date({{ .Date }}).getTime();
 if (postTime < cutoffTime) {
-    $(".blogpost-old").show();
+    document.getElementById("blogpost-old").style.display = "block";
 }
 </script>
 
-{{ partial "footer.html" . }}
+                {{ partial "footer.html" . }}
+            </div>
+        </div>
+    </body>
+</html>
+

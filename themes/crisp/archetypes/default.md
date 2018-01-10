@@ -1,2 +1,7 @@
 +++
+title = ""
+description = ""
+keywords = []
+categories = []
 +++
+

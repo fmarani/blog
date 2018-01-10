@@ -1,10 +1,26 @@
 languageCode = "en-us"
 title = "Blog | Federico Marani"
-theme = "crisp"
+theme = "hugo-theme-crisp"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 relativeurls = true
+paginate = 20
+
+[author]
+name = "Federico Marani"
 
 [params]
-DateFormat = "2 Jan 2006"
-description = "Freelance Engineer/Architect. Former VP Engineering @TrialReach & CTO at TalentRank. MSc Business Psychology."
-author = "Federico Marani"
+tagline = "Freelance Engineer/Architect. Former VP Engineering @TrialReach & CTO at TalentRank. MSc Business Psychology."
+logo = "/img/me.png"
+roundlogo = true
+ga = "UA-47493827-1"
+creativecommon = "cc-by-sa"
+index = "list"
+footer = true
+
+[[menu.main]]
+    name = "About me"
+    url = "/about/"
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+

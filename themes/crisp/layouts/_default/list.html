@@ -12,8 +12,8 @@
             <div class="index-list">
                 {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
                 {{ range $paginator.Pages }}
-                    {{ .Render "index" }}
-                {{ end }}
+                    {{ .Render "li" }}
+                    {{ end }}
                 {{ partial "pagination.html" $paginator }}
             </div>
             {{ partial "footer.html" . }}
