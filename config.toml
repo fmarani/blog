@@ -11,7 +11,6 @@ name = "Federico Marani"
 [params]
 tagline = "Freelance Engineer/Architect. Former VP Engineering @TrialReach & CTO at TalentRank. MSc Business Psychology."
 logo = "/img/me.png"
-roundlogo = true
 ga = "UA-47493827-1"
 creativecommon = "cc-by-sa"
 index = "list"
