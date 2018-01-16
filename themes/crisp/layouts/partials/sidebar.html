@@ -14,7 +14,6 @@
     <div class="title">
         <h1><a href="{{.Site.BaseURL}}">{{.Site.Title}}</a></h1>
         {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
-        {{ with .Description}}<p>{{.}}</p>{{end}}
     </div>
 
     <ul class="sidebar-menu">
