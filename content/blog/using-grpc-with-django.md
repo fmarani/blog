@@ -2,7 +2,7 @@
 categories = []
 tags = ["microservices", "grpc", "python", "architecture"]
 title = "Using GRPC with Django"
-date = "2018-01-10T15:41:15Z"
+date = "2018-01-16T15:41:15Z"
 
 +++
 
