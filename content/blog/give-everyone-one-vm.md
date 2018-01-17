@@ -10,7 +10,7 @@ We started using Ansible as our main DevOps tool, which recently we extended to 
 
 Enough said, this is a vm creation snippet:
 
-```
+```yaml+jinja
 ---
 - name: digitalocean creation
   hosts: all

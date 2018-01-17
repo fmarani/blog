@@ -5,6 +5,8 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
 relativeurls = true
 paginate = 20
 baseurl = "/"
+pygmentsCodeFences = true
+pygmentsStyle = "manni"
 
 [author]
 name = "Federico Marani"

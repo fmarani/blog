@@ -49,7 +49,8 @@ Kafka allows you to process all messages, have at-least-once or at-most-once del
 Here is a very simple client/server implementation of a search service by geometry and/or name.
 
 ### Proto file
-```
+
+```protobuf
 syntax = "proto3";
 
 import "google/protobuf/empty.proto";
@@ -89,7 +90,8 @@ python -m grpc.tools.protoc -I. --python_out=. --grpc_python_out=. search.proto
 At this point you should get a file you can import in both client and server code. The client code is almost ready to use, while the server code gives you an abstract server class with empty methods that you would need to implement. In my version of GRPC, the file is called `search_pb2.py`.
 
 ### Server
-```
+
+```python
 import time
 import sys
 import consul
@@ -166,7 +168,7 @@ if __name__ == '__main__':
 
 Along with the required models:
 
-```
+```python
 from sqlalchemy import create_engine, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, Integer, String
@@ -192,7 +194,7 @@ In this very simple API server, you can see GRPC, Consul, statsD and SqlAlchemy 
 Once you populated Postgresql with some data, you should be able to query the service with the client.
 
 ### Client
-```
+```python
 import grpc
 import sys
 import logging

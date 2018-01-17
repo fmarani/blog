@@ -31,14 +31,14 @@ Step by step example
 
 Step zero is to enable all the extensions that we need:
 
-```
+```sql
 CREATE EXTENSION postgres_fdw;
 CREATE EXTENSION dblink;
 ```
 
 Then as a first step, you need a connection and a user mapping. The first is essentially telling Postgres the location of the foreign server and the second are the credentials that a specific user can use to read from the remote server.
 
-```
+```sql
 CREATE SERVER foreign_server
         FOREIGN DATA WRAPPER postgres_fdw
         OPTIONS (host 'blabla.us-east-1.redshift.amazonaws.com', port '5439', dbname 'dbname_here', sslmode 'require');
@@ -49,7 +49,7 @@ CREATE USER MAPPING FOR current_db_user
 
 This is the bare minimum to start moving data back and forth. You can issue INSERT SELECT statements now, but without importing the foreign schema, you have to specify all column types.
 
-```
+```sql
 INSERT INTO latest_load (id, table_name, loaded_at)
 SELECT *
 FROM dblink('foreign_server',$MARK$
@@ -63,14 +63,14 @@ $MARK$) AS t1 (
 
 If you are working with Postgres 9.5+ you can import the foreign schema in a local schema and use that to trasparently copy data back and forth between databases. As example, importing a schema from a Redshift database locally, you can issue these two commands:
 
-```
+```sql
 CREATE SCHEMA redshift;
 IMPORT FOREIGN SCHEMA public FROM SERVER foreign_server INTO redshift;
 ```
 
 Not all foreign data wrappers have support for this, and also not all DBMS have the concept of schema. Mysql does not really distinguish between database and schema, while Postgres and Redshift do.
 
-```
+```sql
 INSERT INTO redshift.latest_load VALUES ('abc', now(), 'blabla');
 SELECT * FROM redshift.latest_load;
 ```
@@ -79,7 +79,7 @@ These operations are completely transparent now, as in they have the same form a
 
 It is also possible to clone remote table structure locally, if the foreign schema has been imported.
 
-```
+```sql
 CREATE TABLE a_table AS SELECT * FROM redshift.table_ccc;
 ```
 

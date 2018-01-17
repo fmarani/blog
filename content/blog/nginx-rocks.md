@@ -10,7 +10,7 @@ This software is so good that we decided to put images that compose emails on th
 
 This is our configuration:
 
-```
+```nginx
 # FIRST TIER TO ANSWER HTTP REQUESTS FOR IMAGES
 # SECOND TIER IS APACHE
 

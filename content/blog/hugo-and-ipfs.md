@@ -39,7 +39,7 @@ The only caveat I would like to underline here is that you have to use `relative
 
 I created this simple deploy script:
 
-```
+```shell
 #!/bin/bash
 
 # Build the project.

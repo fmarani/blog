@@ -19,7 +19,7 @@ Shared package
 
 I will be using as example a toy project called `slimmer`. We will have a client project, a server project and a shared package, which will contain the stubs. To start with, create an empty folder with a minimal `setup.py` file:
 
-```
+```python
 from setuptools import setup
 
 setup(name='slimmer_grpc',
@@ -46,7 +46,7 @@ Second step you need to create your proto file. I am using an example which is m
 
 I am placing this file inside a special folder called `proto` with a folder structure that mirrors the package hierarchy. In this case, that would be `proto/slimmer_grpc/main.proto`.
 
-```
+```protobuf
 syntax = "proto3";
 
 package slimmer_grpc;
@@ -122,7 +122,7 @@ I am choosing a way that is a lot simpler and more basic: have two separate proc
 
 What we need is a Django management command that instead of entering the WSGI loop, enters in the GRPC loop.
 
-```
+```python
 from concurrent import futures
 import time
 import grpc
@@ -178,7 +178,7 @@ Python client
 Using the client does not require any special treatment. It is just a class that needs to be called. Once installed the shared package in the virtualenv of the client, it is quite straightforward.
 
 
-```
+```python
 from slimmer_grpc import main_pb2_grpc, main_pb2
 import grpc
 
