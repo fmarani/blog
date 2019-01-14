@@ -18,6 +18,7 @@ ga = "UA-47493827-1"
 creativecommon = "cc-by-sa"
 index = "list"
 footer = true
+disqus = "flagZ"
 
 [[menu.main]]
     name = "About me"
