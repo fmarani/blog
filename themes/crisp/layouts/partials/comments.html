@@ -6,8 +6,8 @@
             <script>
 
             var disqus_config = function () {
-            this.page.url = {{ $doc.Permalink }};
-            this.page.identifier = {{ $doc.Permalink }};
+            this.page.url = "https://flagzeta.org{{ $doc.Permalink }}";
+            this.page.identifier = {{ $doc.BaseFileName }};
             };
             (function() { // DON'T EDIT BELOW THIS LINE
             var d = document, s = d.createElement('script');
