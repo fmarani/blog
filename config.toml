@@ -12,18 +12,11 @@ pygmentsStyle = "manni"
 name = "Federico Marani"
 
 [params]
-tagline = "Freelance Engineer/Architect. Former VP Engineering @TrialReach & CTO at TalentRank. MSc Business Psychology. Author of <a href='https://www.amazon.co.uk/Practical-Django-Channels-Applications-Capabilities/dp/1484240987/'>Practical Django 2 and Channels 2</a>"
+tagline = "Freelance Engineer/Architect. Founder of <a href='http://patternlift.com/'>PatternLift</a> software consultancy. Author of <a href='https://www.amazon.co.uk/Practical-Django-Channels-Applications-Capabilities/dp/1484240987/'>Practical Django 2 and Channels 2</a>"
 logo = "/img/me.png"
 ga = "UA-47493827-1"
 creativecommon = "cc-by-sa"
 index = "list"
 footer = true
 disqus = "flagzeta-org"
-
-[[menu.main]]
-    name = "About me"
-    url = "/about/"
-[[menu.main]]
-    name = "Projects"
-    url = "/projects/"
 
