@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build the project.
-hugo
+~/bin/hugo
 
 echo -e "\033[0;32mDeploying updates to Github pages...\033[0m"
 
