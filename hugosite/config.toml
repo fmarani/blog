@@ -1,0 +1,8 @@
+baseURL = 'https://flagzeta.org/'
+languageCode = 'en-us'
+
+# Build static site to /docs folder so Github pages can serve it.
+publishDir = "../docs"
+
+# Serve statics from above Hugosite root.
+staticDir = ["../static/"]
