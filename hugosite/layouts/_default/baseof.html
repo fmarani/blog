@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ block "title" . }}
+      <!-- Blocks may include default content. -->
+      {{ .Site.Title }}
+    {{ end }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="/css/prism.css" rel="stylesheet" />
+
+    <style type="text/css" media="all">
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    </style>
+
+  </head>
+  <body>
+    <div class="lg:container lg:mx-auto p-4">
+      {{ block "nav" . }}
+      <div class="text-right p-1">
+        <a class="text-lg p-3" href="/articles">
+            Articles 
+          </a>
+          <a class="text-lg p-3" href="/til">
+            Today I Learnt
+          </a>
+          <a class="text-xs p-3" href="http://github.com/fmarani" target="_blank" rel="me"><i class="fa fa-github fa-2x"></i></a>
+          <a class="text-xs p-3" href="http://uk.linkedin.com/in/federicomarani" target="_blank" rel="me"><i class="fa fa-linkedin fa-2x"></i></a>
+          <a class="text-xs p-3" href="http://twitter.com/flagZ" target="_blank" rel="me"><i class="fa fa-twitter fa-2x"></i></a>
+          <a class="text-lg p-3 border-l-2" href="/">
+            FM
+          </a>
+      </div>
+      {{ end }}
+
+      <div class="mt-7">
+        {{ block "main" . }}
+        {{ end }}
+      </div>
+    </div>
+  <script src="/js/prism.js"></script>
+  </body>
+</html>

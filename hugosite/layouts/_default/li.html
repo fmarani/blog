@@ -1,0 +1,13 @@
+<div class="flex py-3">
+  <div class="grow">
+    <a class="text-green-800" href='{{ .Permalink }}'>{{ .Title }}</a>
+  </div>
+  <div class="text-grey-400">
+    <time datetime="{{ .Date }}" pubdate="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time>
+  </div>
+  <div class="px-1">
+    {{ range .Params.tags }}
+    <a class="bg-slate-400 text-white text-sm p-1 rounded" href="{{ "/tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </div>
+</div>

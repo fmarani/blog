@@ -1,0 +1,11 @@
+<div class="my-5 text-sm text-right">
+  <span class="mx-3">
+    {{if .HasPrev}}
+    <a class="bg-slate-400 text-white rounded p-2" href="{{ .Prev.URL }}">&larr;</a>
+    {{end}}
+    <span class="px-2">Page {{ .PageNumber }}</span>
+    {{if .HasNext}}
+    <a class="bg-slate-400 text-white rounded p-2" href="{{ .Next.URL }}">&rarr;</a>
+    {{end}}
+  </span>
+</div>

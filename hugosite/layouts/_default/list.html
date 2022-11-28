@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1 class="text-3xl my-2">{{ .Title }}</h1>
+
+  {{ $pag := .Paginate .Pages 10 }}
+
+  <div class="pages divide-y">
+  {{ range $pag.Pages }}
+    {{ .Render "li" }}
+  {{ end }}
+  </div>
+
+  {{ partial "pagination.html" $pag }}
+{{ end }}

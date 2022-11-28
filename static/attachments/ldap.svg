@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="28cm" height="14cm" viewBox="71 33 550 267" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <g>
+      <path style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 124.778 63.1331 C 106.292,62.7721 70.439,70.3534 75.4808,86.5991 C 80.5226,102.845 104.611,106.455 114.695,101.762 C 124.778,97.0686 99.0091,124.506 148.307,131.726 C 197.604,138.946 222.813,127.394 215.53,119.09 C 208.248,110.787 258.665,138.585 282.194,122.701 C 305.722,106.816 258.105,91.6533 268.189,93.8194 C 278.272,95.9855 309.083,93.0974 299,66.0213 C 288.916,38.9451 198.164,59.884 208.248,55.9128 C 218.331,51.9417 193.122,32.0858 161.751,36.057 C 130.38,40.0282 128.155,47.2344 124.794,63.1191 L 124.778,63.1331z"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="196.158" y="91.3997">
+        <tspan x="196.158" y="91.3997">Internet</tspan>
+      </text>
+    </g>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="72.5071" y="216" width="211" height="83" rx="0" ry="0"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="178.007" y="257.5">
+      <tspan x="178.007" y="257.5">Web server</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="460" y="228" width="160" height="60" rx="0" ry="0"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="540" y="258">
+      <tspan x="540" y="258">LDAP server</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="177.531" y1="134.049" x2="177.806" y2="205.26"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="177.835,212.76 172.796,202.779 177.806,205.26 182.796,202.741 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="284.477" y1="257.689" x2="450.264" y2="257.983"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="457.764,257.996 447.755,262.978 450.264,257.983 447.773,252.978 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="191" y="167">
+      <tspan x="191" y="167">Submitting user/password</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="296" y="243">
+      <tspan x="296" y="243">Verifying user/password</tspan>
+    </text>
+  </g>
+</svg>

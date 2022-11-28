@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="27cm" height="14cm" viewBox="29 24 532 267" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <g>
+      <path style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 83.0712 53.5983 C 64.5846,53.2373 28.7319,60.8186 33.7737,77.0643 C 38.8154,93.31 62.904,96.92 72.9876,92.227 C 83.0712,87.5338 57.302,114.971 106.6,122.191 C 155.897,129.411 181.106,117.859 173.823,109.556 C 166.54,101.252 216.958,129.05 240.487,113.166 C 264.015,97.281 216.398,82.1185 226.482,84.2846 C 236.565,86.4507 267.376,83.5626 257.293,56.4865 C 247.209,29.4103 156.457,50.3492 166.54,46.378 C 176.624,42.4069 151.415,22.551 120.044,26.5222 C 88.6732,30.4934 86.448,37.6996 83.0869,53.5843 L 83.0712,53.5983z"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="154.451" y="81.8649">
+        <tspan x="154.451" y="81.8649">Internet</tspan>
+      </text>
+    </g>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="30.8" y="206.465" width="211" height="83" rx="0" ry="0"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="136.3" y="247.965">
+      <tspan x="136.3" y="247.965">Web server</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400.293" y="143.465" width="160" height="60" rx="0" ry="0"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="480.293" y="173.465">
+      <tspan x="480.293" y="173.465">SSO server</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="135.824" y1="124.514" x2="136.098" y2="195.725"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="136.127,203.225 131.089,193.244 136.098,195.725 141.089,193.206 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="252.16" y1="215.269" x2="390.923" y2="176.109"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="244.942,217.306 253.208,209.778 252.16,215.269 255.924,219.402 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="398.141,174.073 389.875,181.601 390.923,176.109 387.159,171.976 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="149.293" y="157.465">
+      <tspan x="149.293" y="157.465">Redirect to</tspan>
+      <tspan x="149.293" y="173.465">auth server (1)</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="280.293" y="225.465">
+      <tspan x="280.293" y="225.465">User checks (3)</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="246" y1="110" x2="390.778" y2="141.401"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="398.108,142.991 387.275,145.758 390.778,141.401 389.395,135.985 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="263" y="102">
+      <tspan x="263" y="102">Submit user/password (2)</tspan>
+    </text>
+  </g>
+</svg>

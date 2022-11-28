@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="25cm" height="21cm" viewBox="17 19 485 409" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Background">
+    <g>
+      <path style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" d="M 71.0712 49.5983 C 52.5846,49.2373 16.7319,56.8186 21.7737,73.0643 C 26.8154,89.31 50.904,92.92 60.9876,88.227 C 71.0712,83.5338 45.302,110.971 94.5995,118.191 C 143.897,125.411 169.106,113.859 161.823,105.556 C 154.54,97.2522 204.958,125.05 228.487,109.166 C 252.015,93.281 204.398,78.1185 214.482,80.2846 C 224.565,82.4507 255.376,79.5626 245.293,52.4865 C 235.209,25.4103 144.457,46.3492 154.54,42.378 C 164.624,38.4069 139.415,18.551 108.044,22.5222 C 76.6732,26.4934 74.448,33.6996 71.0869,49.5843 L 71.0712,49.5983z"/>
+      <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="142.451" y="77.8649">
+        <tspan x="142.451" y="77.8649">Internet</tspan>
+      </text>
+    </g>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="18.8" y="202.465" width="211" height="83" rx="0" ry="0"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="124.3" y="243.965">
+      <tspan x="124.3" y="243.965">oauth2_proxy</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="123.824" y1="120.514" x2="124.098" y2="191.725"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="124.127,199.225 119.089,189.244 124.098,191.725 129.089,189.206 "/>
+    </g>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="21" y="347" width="206" height="80" rx="0" ry="0"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="124" y="387">
+      <tspan x="124" y="387">Web server</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="124.3" y1="285.465" x2="124.15" y2="336.288"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="124.128,343.788 119.157,333.773 124.15,336.288 129.157,333.803 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="136" y="322">
+      <tspan x="136" y="322">Authenticated traffic</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="341.271" y="112.9" width="160" height="60" rx="0" ry="0"/>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="421.271" y="142.9">
+      <tspan x="421.271" y="142.9">accounts.google.com</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="239.603" y1="236.443" x2="352.767" y2="178.173"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="232.935,239.876 239.537,230.853 239.603,236.443 244.114,239.744 "/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="359.435,174.74 352.833,183.763 352.767,178.173 348.256,174.873 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="231.947" y1="76.9" x2="332.936" y2="137.868"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="339.357,141.744 328.212,140.857 332.936,137.868 333.38,132.296 "/>
+    </g>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="265.947" y="81.9">
+      <tspan x="265.947" y="81.9">Submit user/password (2)</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="139.8" y="153.9">
+      <tspan x="139.8" y="153.9">Redirect if not</tspan>
+      <tspan x="139.8" y="169.9">authenticated (1)</tspan>
+    </text>
+    <text font-size="12.7998" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="295.8" y="231.9">
+      <tspan x="295.8" y="231.9">User checks (3)</tspan>
+    </text>
+  </g>
+</svg>

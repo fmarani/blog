@@ -1,8 +1,17 @@
 baseURL = 'https://flagzeta.org/'
 languageCode = 'en-us'
+title = "Federico Marani's blog"
 
 # Build static site to /docs folder so Github pages can serve it.
 publishDir = "../docs"
 
 # Serve statics from above Hugosite root.
 staticDir = ["../static/"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  mainSections = ["articles"]
