@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ block "title" . }}
-      <!-- Blocks may include default content. -->
       {{ .Site.Title }}
     {{ end }}</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +21,9 @@
     }
     </style>
 
+    {{ range .AlternativeOutputFormats -}}
+      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
   </head>
   <body>
     <div class="lg:container lg:mx-auto p-4">

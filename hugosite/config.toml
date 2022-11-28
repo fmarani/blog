@@ -1,6 +1,6 @@
 baseURL = 'https://flagzeta.org/'
 languageCode = 'en-us'
-title = "Federico Marani's blog"
+title = "Federico Marani"
 
 # Build static site to /docs folder so Github pages can serve it.
 publishDir = "../docs"
