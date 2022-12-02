@@ -21,9 +21,14 @@
     }
     </style>
 
-    {{ range .AlternativeOutputFormats -}}
-      {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-    {{ end -}}
+    {{ if .IsHome }}
+        <link rel="alternate" type="application/rss+xml" href="/articles/index.xml">
+    {{ else }}
+        {{ with .OutputFormats.Get "rss" }}
+            {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+        {{ end -}}
+    {{ end }}
+
   </head>
   <body>
     <div class="container mx-auto max-w-screen-lg p-4">

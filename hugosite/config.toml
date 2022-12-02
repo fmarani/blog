@@ -4,7 +4,8 @@ title = "Federico Marani"
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 
 [author]
-  name = 'Federico Marani'
+name = 'Federico Marani'
+email = 'me@federicomarani.com'
 
 # Build static site to /docs folder so Github pages can serve it.
 publishDir = "../docs"
