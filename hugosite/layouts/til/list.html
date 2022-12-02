@@ -1,0 +1,35 @@
+{{ define "nav" }}
+      <div class="text-right p-1">
+          <span class="text-lg p-3" href="/til">
+            Today I Learnt
+          </span>
+          <a class="text-lg p-3 border-l-2" href="/">
+            FM
+          </a>
+      </div>
+{{ end }}
+
+{{ define "main" }}
+  <h1 class="text-3xl my-4">Some things I learnt recently...</h1>
+
+  <!-->
+  <div class="my-5">
+    Browse by tag:
+    <span class="italic">
+      {{ range $key, $value := .Site.Taxonomies.tags }}
+      <div class="inline-block m-1 bg-slate-100">{{ $key }}</div>
+      {{ end }}
+    </span>
+  </div>
+  -->
+
+  {{ $pag := .Paginate .Pages 20 }}
+
+  <div class="pages divide-y">
+  {{ range $pag.Pages }}
+    {{ .Render "li" }}
+  {{ end }}
+  </div>
+
+  {{ partial "pagination.html" $pag }}
+{{ end }}

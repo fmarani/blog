@@ -1,0 +1,22 @@
+{{ define "nav" }}
+      <div class="text-right p-1">
+          <span class="text-lg p-3" href="/til">
+            Today I Learnt
+          </span>
+          <a class="text-lg p-3 border-l-2" href="/">
+            FM
+          </a>
+      </div>
+{{ end }}
+
+{{ define "title" }}
+  {{ .Title }} &ndash; {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<article class="py-2 prose">
+  <h1 class="text-green-700">{{ .Title }}</h1>
+
+  {{ .Content }}
+</article>
+{{ end }}
