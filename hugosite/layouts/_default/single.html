@@ -6,6 +6,10 @@
 <article class="py-2 prose">
   <h1 class="text-green-700">{{ .Title }}</h1>
 
+  <div class="-mt-4 mb-7 italic">
+    <time datetime="{{ .Date }}" pubdate="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time> - {{ .ReadingTime }} minutes read
+  </div>
+
   {{ .Content }}
 </article>
 {{ end }}
