@@ -49,18 +49,15 @@ CONTENT
 }
 
 function generate_filepath() {
-    echo posts/$(slugify "$1").md
+    echo til/$(slugify "$1").md
 }
 
 function publish() {
     local filepath="$1"
     local title="$2"
 
-    # Rebuild the static site
-    make build
-
     # Commit the post file and any screenshots that might have been saved while writing this post.
-    git add $filepath docs/ static/
+    git add $filepath static/
     git commit -m "$title" > /dev/null 
 
     # Publish the changes to Github.
