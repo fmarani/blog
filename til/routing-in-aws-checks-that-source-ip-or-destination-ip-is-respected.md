@@ -1,5 +1,5 @@
 ---
-title: "Routing in AWS always checks that source IP or destination IP is respected"
+title: "Routing in AWS checks that source IP or destination IP is respected"
 date: "2023-05-01T13:12:18+02:00"
 tags: ["aws", "network"]
 ---
