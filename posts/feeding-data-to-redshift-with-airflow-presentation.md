@@ -1,6 +1,7 @@
 +++
 date = "2017-07-20 12:00:00+00:00"
 title = "Feeding data to Redshift with Airflow (Europython 2017)"
+description = "Presentation and video of the talk I gave in Rimini"
 tags = ["airflow", "redshift", "europython", "presentation"]
 +++
 

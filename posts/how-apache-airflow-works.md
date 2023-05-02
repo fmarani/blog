@@ -1,8 +1,8 @@
 +++
 date = "2017-05-31T10:17:15+01:00"
 title = "How Apache Airflow works"
+description = "Deep-dive into its various components"
 tags = ['data', 'big data', 'etl']
-
 +++
 
 (continuing from a [previous article](/blog/intro-to-apache-airflow/))

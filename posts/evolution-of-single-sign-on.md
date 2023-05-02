@@ -1,6 +1,7 @@
 ---
 title: "Evolution of Single Sign On"
 date: 2019-05-15T17:54:18+01:00
+description: Several ways I have seen this implemented over the years
 tags: ['SSO', 'enterprise', 'web architectures']
 ---
 

@@ -2,6 +2,7 @@
 categories = []
 tags = ["microservices", "grpc", "python", "architecture"]
 title = "Using GRPC with Django"
+description = "One way to construct servers using Django management commands"
 date = "2018-01-16T15:41:15Z"
 
 +++

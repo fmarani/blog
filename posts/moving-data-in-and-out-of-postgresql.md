@@ -1,6 +1,7 @@
 +++
 date = "2017-06-18T14:44:35+01:00"
 title = "Moving data in bulk in and out of Postgresql"
+description = "Using Foreign Data Wrappers to move data directly between DBMSes"
 tags = ['data', 'big data', 'etl']
 
 +++

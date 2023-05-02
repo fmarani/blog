@@ -1,6 +1,7 @@
 +++
 title = "Difference between env and envFrom in Kubernetes deployments"
 tags = ["kubernetes"]
+description = "Two different ways to inject configuration parameters to your pods"
 date = "2022-11-16T15:41:15Z"
 +++
 

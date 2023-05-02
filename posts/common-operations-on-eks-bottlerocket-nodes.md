@@ -1,6 +1,7 @@
 +++
 title = "Common operations on Bottlerocket"
 tags = ["kubernetes", "eks"]
+description = "Some of the things that we routinely do on our EKS nodes"
 date = "2022-12-07T22:19:15Z"
 +++
 

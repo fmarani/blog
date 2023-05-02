@@ -1,6 +1,7 @@
 +++
 title = "Notes about book I have read (2018)"
 tags = ['reading', 'book']
+description = "A record for me, having read 38 non-fiction books"
 date = "2019-02-06T15:41:15Z"
 +++
 

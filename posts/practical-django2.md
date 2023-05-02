@@ -1,7 +1,7 @@
 +++
 title = "Book: Practical Django 2 and Channel 2"
 tags = ["book", "django", "channels"]
-categories = []
+description = "First book I wrote (published with Apress)"
 date = "2018-12-28T15:41:15Z"
 
 +++
