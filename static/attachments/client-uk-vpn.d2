@@ -1,0 +1,22 @@
+AWS VPC: {
+  public subnet: {
+    public load balancers
+  }
+
+  private subnet(s): {
+    private load balancers
+  }
+
+  public subnet <-> VPN gateway: vpn route propagation
+  private subnet(s) <-> VPN gateway: vpn route propagation
+}
+
+Electricity network: {
+  client server 1 <-> Network switch
+  client server 2 <-> Network switch
+  Network switch <-> VPN gateway: no route propagation {
+    style.font-color: red
+  }
+}
+
+Electricity network.VPN gateway <-> AWS VPC.VPN gateway: IPSec connection

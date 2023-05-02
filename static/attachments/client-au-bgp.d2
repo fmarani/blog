@@ -1,0 +1,21 @@
+AWS VPC: {
+  public subnet: {
+    public load balancers
+  }
+
+  private subnet(s): {
+    private load balancers
+  }
+
+  public subnet <-> VPN gateway: vpn route propagation
+  private subnet(s) <-> VPN gateway: vpn route propagation
+  VPN gateway <-> Direct Connect: BGP route propagation
+}
+
+Datacenter: {
+  client server 1 <-> Network switch
+  client server 2 <-> Network switch
+  Network switch <-> Direct Connect: fiber optic cable
+}
+
+Datacenter.Direct Connect <-> AWS VPC.Direct Connect: AWS backbone
