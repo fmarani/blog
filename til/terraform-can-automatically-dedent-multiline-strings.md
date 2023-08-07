@@ -25,7 +25,7 @@ output "heredoc-indented" {
 }
 ```
 
-and then run these to get the outputs:
+and then run these commands to get the outputs:
 ```
 > terraform apply
 ...
