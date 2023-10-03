@@ -9,19 +9,19 @@ Let's consider the scenario of a NAT server doing the forwarding between an inte
 We will use the root namespace as the NAT server, and create a dedicated network namespace for the client.
 
 ```
-ip netns add client
+> ip netns add client
 ```
 
 Peering these namespaces with a pair of configured virtual eth interfaces, one of them in the client ns and one in the root ns:
 
 ```
-ip link add eth0 netns client type veth peer name eth0
+> ip link add eth0 netns client type veth peer name eth0
 
-ip netns exec client ip addr add 192.168.5.1/24 dev eth0
-ip netns exec client ip link set eth0 up
+> ip netns exec client ip addr add 192.168.5.1/24 dev eth0
+> ip netns exec client ip link set eth0 up
 
-ip addr add 192.168.5.2/24 dev eth0
-ip link set eth0 up
+> ip addr add 192.168.5.2/24 dev eth0
+> ip link set eth0 up
 ```
 
 With the above we created one `eth0`, scoped to the client, with an IP of `192.168.5.1`, and another `eth0`, scoped to the NAT server, with `192.168.5.2`.
