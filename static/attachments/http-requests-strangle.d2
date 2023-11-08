@@ -1,0 +1,56 @@
+direction: right
+
+title: {
+  label: DNS weights at 0% for new platform - week 1
+  near: top-center
+  shape: text
+  style.font-size: 20
+  style.underline: true
+}
+
+Browser 1
+Browser 2
+Browser 3
+
+AWS: {
+  Route 53
+}
+
+User base -> AWS.Route 53: DNS A query
+
+AWS.Route 53 -> Browser 1: IP of the old platform {
+}
+AWS.Route 53 -> Browser 2: IP of the old platform {
+}
+AWS.Route 53 -> Browser 3: IP of the old platform {
+}
+
+scenarios: {
+  dns33: {
+    title.label: DNS weights at 33% for new platform - week 2
+    (AWS.Route 53 -> Browser 3)[0]: IP of the new platform {
+      style.bold: true
+    }
+  }
+  dns66: {
+    title.label: DNS weights at 66% for new platform - week 3
+    (AWS.Route 53 -> Browser 3)[0]: IP of the new platform {
+      style.bold: true
+    }
+    (AWS.Route 53 -> Browser 1)[0]: IP of the new platform {
+      style.bold: true
+    }
+  }
+  dns100: {
+    title.label: DNS weights at 100% for new platform - week 4
+    (AWS.Route 53 -> Browser 3)[0]: IP of the new platform {
+      style.bold: true
+    }
+    (AWS.Route 53 -> Browser 1)[0]: IP of the new platform {
+      style.bold: true
+    }
+    (AWS.Route 53 -> Browser 2)[0]: IP of the new platform {
+      style.bold: true
+    }
+  }
+}

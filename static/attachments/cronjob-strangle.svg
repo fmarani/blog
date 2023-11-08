@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" d2Version="v0.4.1" preserveAspectRatio="xMinYMin meet" viewBox="0 0 930 400"><svg id="d2-svg" width="930" height="400" viewBox="11 -35 930 400"><style type="text/css"><![CDATA[
+.d2-60323885 .text {
+	font-family: "d2-60323885-font-regular";
+}
+@font-face {
+	font-family: d2-60323885-font-regular;
+	src: url("data:application/font-woff;base64,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");
+}
+.text-underline {
+	text-decoration: underline;
+}
+.d2-60323885 .text-bold {
+	font-family: "d2-60323885-font-bold";
+}
+@font-face {
+	font-family: d2-60323885-font-bold;
+	src: url("data:application/font-woff;base64,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");
+}
+.d2-60323885 .text-italic {
+	font-family: "d2-60323885-font-italic";
+}
+@font-face {
+	font-family: d2-60323885-font-italic;
+	src: url("data:application/font-woff;base64,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");
+}]]></style><style type="text/css"><![CDATA[.shape {
+  shape-rendering: geometricPrecision;
+  stroke-linejoin: round;
+}
+.connection {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.blend {
+  mix-blend-mode: multiply;
+  opacity: 0.5;
+}
+
+		.d2-60323885 .fill-N1{fill:#0A0F25;}
+		.d2-60323885 .fill-N2{fill:#676C7E;}
+		.d2-60323885 .fill-N3{fill:#9499AB;}
+		.d2-60323885 .fill-N4{fill:#CFD2DD;}
+		.d2-60323885 .fill-N5{fill:#DEE1EB;}
+		.d2-60323885 .fill-N6{fill:#EEF1F8;}
+		.d2-60323885 .fill-N7{fill:#FFFFFF;}
+		.d2-60323885 .fill-B1{fill:#0D32B2;}
+		.d2-60323885 .fill-B2{fill:#0D32B2;}
+		.d2-60323885 .fill-B3{fill:#E3E9FD;}
+		.d2-60323885 .fill-B4{fill:#E3E9FD;}
+		.d2-60323885 .fill-B5{fill:#EDF0FD;}
+		.d2-60323885 .fill-B6{fill:#F7F8FE;}
+		.d2-60323885 .fill-AA2{fill:#4A6FF3;}
+		.d2-60323885 .fill-AA4{fill:#EDF0FD;}
+		.d2-60323885 .fill-AA5{fill:#F7F8FE;}
+		.d2-60323885 .fill-AB4{fill:#EDF0FD;}
+		.d2-60323885 .fill-AB5{fill:#F7F8FE;}
+		.d2-60323885 .stroke-N1{stroke:#0A0F25;}
+		.d2-60323885 .stroke-N2{stroke:#676C7E;}
+		.d2-60323885 .stroke-N3{stroke:#9499AB;}
+		.d2-60323885 .stroke-N4{stroke:#CFD2DD;}
+		.d2-60323885 .stroke-N5{stroke:#DEE1EB;}
+		.d2-60323885 .stroke-N6{stroke:#EEF1F8;}
+		.d2-60323885 .stroke-N7{stroke:#FFFFFF;}
+		.d2-60323885 .stroke-B1{stroke:#0D32B2;}
+		.d2-60323885 .stroke-B2{stroke:#0D32B2;}
+		.d2-60323885 .stroke-B3{stroke:#E3E9FD;}
+		.d2-60323885 .stroke-B4{stroke:#E3E9FD;}
+		.d2-60323885 .stroke-B5{stroke:#EDF0FD;}
+		.d2-60323885 .stroke-B6{stroke:#F7F8FE;}
+		.d2-60323885 .stroke-AA2{stroke:#4A6FF3;}
+		.d2-60323885 .stroke-AA4{stroke:#EDF0FD;}
+		.d2-60323885 .stroke-AA5{stroke:#F7F8FE;}
+		.d2-60323885 .stroke-AB4{stroke:#EDF0FD;}
+		.d2-60323885 .stroke-AB5{stroke:#F7F8FE;}
+		.d2-60323885 .background-color-N1{background-color:#0A0F25;}
+		.d2-60323885 .background-color-N2{background-color:#676C7E;}
+		.d2-60323885 .background-color-N3{background-color:#9499AB;}
+		.d2-60323885 .background-color-N4{background-color:#CFD2DD;}
+		.d2-60323885 .background-color-N5{background-color:#DEE1EB;}
+		.d2-60323885 .background-color-N6{background-color:#EEF1F8;}
+		.d2-60323885 .background-color-N7{background-color:#FFFFFF;}
+		.d2-60323885 .background-color-B1{background-color:#0D32B2;}
+		.d2-60323885 .background-color-B2{background-color:#0D32B2;}
+		.d2-60323885 .background-color-B3{background-color:#E3E9FD;}
+		.d2-60323885 .background-color-B4{background-color:#E3E9FD;}
+		.d2-60323885 .background-color-B5{background-color:#EDF0FD;}
+		.d2-60323885 .background-color-B6{background-color:#F7F8FE;}
+		.d2-60323885 .background-color-AA2{background-color:#4A6FF3;}
+		.d2-60323885 .background-color-AA4{background-color:#EDF0FD;}
+		.d2-60323885 .background-color-AA5{background-color:#F7F8FE;}
+		.d2-60323885 .background-color-AB4{background-color:#EDF0FD;}
+		.d2-60323885 .background-color-AB5{background-color:#F7F8FE;}
+		.d2-60323885 .color-N1{color:#0A0F25;}
+		.d2-60323885 .color-N2{color:#676C7E;}
+		.d2-60323885 .color-N3{color:#9499AB;}
+		.d2-60323885 .color-N4{color:#CFD2DD;}
+		.d2-60323885 .color-N5{color:#DEE1EB;}
+		.d2-60323885 .color-N6{color:#EEF1F8;}
+		.d2-60323885 .color-N7{color:#FFFFFF;}
+		.d2-60323885 .color-B1{color:#0D32B2;}
+		.d2-60323885 .color-B2{color:#0D32B2;}
+		.d2-60323885 .color-B3{color:#E3E9FD;}
+		.d2-60323885 .color-B4{color:#E3E9FD;}
+		.d2-60323885 .color-B5{color:#EDF0FD;}
+		.d2-60323885 .color-B6{color:#F7F8FE;}
+		.d2-60323885 .color-AA2{color:#4A6FF3;}
+		.d2-60323885 .color-AA4{color:#EDF0FD;}
+		.d2-60323885 .color-AA5{color:#F7F8FE;}
+		.d2-60323885 .color-AB4{color:#EDF0FD;}
+		.d2-60323885 .color-AB5{color:#F7F8FE;}.appendix text.text{fill:#0A0F25}.md{--color-fg-default:#0A0F25;--color-fg-muted:#676C7E;--color-fg-subtle:#9499AB;--color-canvas-default:#FFFFFF;--color-canvas-subtle:#EEF1F8;--color-border-default:#0D32B2;--color-border-muted:#0D32B2;--color-neutral-muted:#EEF1F8;--color-accent-fg:#0D32B2;--color-accent-emphasis:#0D32B2;--color-attention-subtle:#676C7E;--color-danger-fg:red;}.sketch-overlay-B1{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-B2{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-B3{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-B6{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AA2{fill:url(#streaks-dark);mix-blend-mode:overlay}.sketch-overlay-AA4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AA5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AB4{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-AB5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N1{fill:url(#streaks-darker);mix-blend-mode:lighten}.sketch-overlay-N2{fill:url(#streaks-dark);mix-blend-mode:overlay}.sketch-overlay-N3{fill:url(#streaks-normal);mix-blend-mode:color-burn}.sketch-overlay-N4{fill:url(#streaks-normal);mix-blend-mode:color-burn}.sketch-overlay-N5{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N6{fill:url(#streaks-bright);mix-blend-mode:darken}.sketch-overlay-N7{fill:url(#streaks-bright);mix-blend-mode:darken}.light-code{display: block}.dark-code{display: none}]]></style><style type="text/css">.md em,
+.md dfn {
+  font-family: "d2-60323885-font-italic";
+}
+
+.md b,
+.md strong {
+  font-family: "d2-60323885-font-bold";
+}
+
+.md code,
+.md kbd,
+.md pre,
+.md samp {
+  font-family: "d2-60323885-font-mono";
+  font-size: 1em;
+}
+
+.md {
+  tab-size: 4;
+}
+
+/* variables are provided in d2renderers/d2svg/d2svg.go */
+
+.md {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: var(--color-fg-default);
+  background-color: transparent; /* we don't want to define the background color */
+  font-family: "d2-60323885-font-regular";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.md details,
+.md figcaption,
+.md figure {
+  display: block;
+}
+
+.md summary {
+  display: list-item;
+}
+
+.md [hidden] {
+  display: none !important;
+}
+
+.md a {
+  background-color: transparent;
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+
+.md a:active,
+.md a:hover {
+  outline-width: 0;
+}
+
+.md abbr[title] {
+  border-bottom: none;
+  text-decoration: underline dotted;
+}
+
+.md dfn {
+  font-style: italic;
+}
+
+.md h1 {
+  margin: 0.67em 0;
+  padding-bottom: 0.3em;
+  font-size: 2em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.md mark {
+  background-color: var(--color-attention-subtle);
+  color: var(--color-text-primary);
+}
+
+.md small {
+  font-size: 90%;
+}
+
+.md sub,
+.md sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.md sub {
+  bottom: -0.25em;
+}
+
+.md sup {
+  top: -0.5em;
+}
+
+.md img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: var(--color-canvas-default);
+}
+
+.md figure {
+  margin: 1em 40px;
+}
+
+.md hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid var(--color-border-muted);
+  height: 0.25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: var(--color-border-default);
+  border: 0;
+}
+
+.md input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.md [type="button"],
+.md [type="reset"],
+.md [type="submit"] {
+  -webkit-appearance: button;
+}
+
+.md [type="button"]::-moz-focus-inner,
+.md [type="reset"]::-moz-focus-inner,
+.md [type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.md [type="button"]:-moz-focusring,
+.md [type="reset"]:-moz-focusring,
+.md [type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.md [type="checkbox"],
+.md [type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.md [type="number"]::-webkit-inner-spin-button,
+.md [type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.md [type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+.md [type="search"]::-webkit-search-cancel-button,
+.md [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.md ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+.md ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+.md a:hover {
+  text-decoration: underline;
+}
+
+.md hr::before {
+  display: table;
+  content: "";
+}
+
+.md hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.md table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.md td,
+.md th {
+  padding: 0;
+}
+
+.md details summary {
+  cursor: pointer;
+}
+
+.md details:not([open]) > *:not(summary) {
+  display: none !important;
+}
+
+.md kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  color: var(--color-fg-default);
+  vertical-align: middle;
+  background-color: var(--color-canvas-subtle);
+  border: solid 1px var(--color-neutral-muted);
+  border-bottom-color: var(--color-neutral-muted);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--color-neutral-muted);
+}
+
+.md h1,
+.md h2,
+.md h3,
+.md h4,
+.md h5,
+.md h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  line-height: 1.25;
+  font-family: "font-semibold";
+}
+
+.md h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.md h3 {
+  font-size: 1.25em;
+}
+
+.md h4 {
+  font-size: 1em;
+}
+
+.md h5 {
+  font-size: 0.875em;
+}
+
+.md h6 {
+  font-size: 0.85em;
+  color: var(--color-fg-muted);
+}
+
+.md p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.md blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: var(--color-fg-muted);
+  border-left: 0.25em solid var(--color-border-default);
+}
+
+.md ul,
+.md ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.md ol ol,
+.md ul ol {
+  list-style-type: lower-roman;
+}
+
+.md ul ul ol,
+.md ul ol ol,
+.md ol ul ol,
+.md ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.md dd {
+  margin-left: 0;
+}
+
+.md pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  word-wrap: normal;
+}
+
+.md ::placeholder {
+  color: var(--color-fg-subtle);
+  opacity: 1;
+}
+
+.md input::-webkit-outer-spin-button,
+.md input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.md::before {
+  display: table;
+  content: "";
+}
+
+.md::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.md > *:first-child {
+  margin-top: 0 !important;
+}
+
+.md > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.md a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md .absent {
+  color: var(--color-danger-fg);
+}
+
+.md .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.md .anchor:focus {
+  outline: none;
+}
+
+.md p,
+.md blockquote,
+.md ul,
+.md ol,
+.md dl,
+.md table,
+.md pre,
+.md details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.md blockquote > :first-child {
+  margin-top: 0;
+}
+
+.md blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.md sup > a::before {
+  content: "[";
+}
+
+.md sup > a::after {
+  content: "]";
+}
+
+.md h1:hover .anchor,
+.md h2:hover .anchor,
+.md h3:hover .anchor,
+.md h4:hover .anchor,
+.md h5:hover .anchor,
+.md h6:hover .anchor {
+  text-decoration: none;
+}
+
+.md h1 tt,
+.md h1 code,
+.md h2 tt,
+.md h2 code,
+.md h3 tt,
+.md h3 code,
+.md h4 tt,
+.md h4 code,
+.md h5 tt,
+.md h5 code,
+.md h6 tt,
+.md h6 code {
+  padding: 0 0.2em;
+  font-size: inherit;
+}
+
+.md ul.no-list,
+.md ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.md ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.md ol[type="a"] {
+  list-style-type: lower-alpha;
+}
+
+.md ol[type="i"] {
+  list-style-type: lower-roman;
+}
+
+.md div > ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.md ul ul,
+.md ul ol,
+.md ol ol,
+.md ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.md li > p {
+  margin-top: 16px;
+}
+
+.md li + li {
+  margin-top: 0.25em;
+}
+
+.md dl {
+  padding: 0;
+}
+
+.md dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-family: "font-semibold";
+}
+
+.md dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.md table th {
+  font-family: "font-semibold";
+}
+
+.md table th,
+.md table td {
+  padding: 6px 13px;
+  border: 1px solid var(--color-border-default);
+}
+
+.md table tr {
+  background-color: var(--color-canvas-default);
+  border-top: 1px solid var(--color-border-muted);
+}
+
+.md table tr:nth-child(2n) {
+  background-color: var(--color-canvas-subtle);
+}
+
+.md table img {
+  background-color: transparent;
+}
+
+.md img[align="right"] {
+  padding-left: 20px;
+}
+
+.md img[align="left"] {
+  padding-right: 20px;
+}
+
+.md span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.md span.frame > span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid var(--color-border-default);
+}
+
+.md span.frame span img {
+  display: block;
+  float: left;
+}
+
+.md span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: var(--color-fg-default);
+}
+
+.md span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.md span.align-center > span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.md span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.md span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.md span.align-right > span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.md span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.md span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.md span.float-left span {
+  margin: 13px 0 0;
+}
+
+.md span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.md span.float-right > span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.md code,
+.md tt {
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: var(--color-neutral-muted);
+  border-radius: 6px;
+}
+
+.md code br,
+.md tt br {
+  display: none;
+}
+
+.md del code {
+  text-decoration: inherit;
+}
+
+.md pre code {
+  font-size: 100%;
+}
+
+.md pre > code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.md .highlight {
+  margin-bottom: 16px;
+}
+
+.md .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.md .highlight pre,
+.md pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+}
+
+.md pre code,
+.md pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.md .csv-data td,
+.md .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.md .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: var(--color-canvas-default);
+  border: 0;
+}
+
+.md .csv-data tr {
+  border-top: 0;
+}
+
+.md .csv-data th {
+  font-family: "font-semibold";
+  background: var(--color-canvas-subtle);
+  border-top: 0;
+}
+
+.md .footnotes {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  border-top: 1px solid var(--color-border-default);
+}
+
+.md .footnotes ol {
+  padding-left: 16px;
+}
+
+.md .footnotes li {
+  position: relative;
+}
+
+.md .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid var(--color-accent-emphasis);
+  border-radius: 6px;
+}
+
+.md .footnotes li:target {
+  color: var(--color-fg-default);
+}
+
+.md .task-list-item {
+  list-style-type: none;
+}
+
+.md .task-list-item label {
+  font-weight: 400;
+}
+
+.md .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.md .task-list-item + .task-list-item {
+  margin-top: 3px;
+}
+
+.md .task-list-item .handle {
+  display: none;
+}
+
+.md .task-list-item-checkbox {
+  margin: 0 0.2em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.md .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em 0.25em 0.2em;
+}
+</style><style type="text/css"><![CDATA[@keyframes d2Transition-d2-60323885-0 {
+		0%, 0.000000% {
+				opacity: 0;
+		}
+		0.000000%, 11.103175% {
+				opacity: 1;
+		}
+		11.111111%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-1 {
+		0%, 11.103175% {
+				opacity: 0;
+		}
+		11.111111%, 22.214286% {
+				opacity: 1;
+		}
+		22.222222%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-2 {
+		0%, 22.214286% {
+				opacity: 0;
+		}
+		22.222222%, 33.325397% {
+				opacity: 1;
+		}
+		33.333333%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-3 {
+		0%, 33.325397% {
+				opacity: 0;
+		}
+		33.333333%, 44.436508% {
+				opacity: 1;
+		}
+		44.444444%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-4 {
+		0%, 44.436508% {
+				opacity: 0;
+		}
+		44.444444%, 55.547619% {
+				opacity: 1;
+		}
+		55.555556%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-5 {
+		0%, 55.547619% {
+				opacity: 0;
+		}
+		55.555556%, 66.658730% {
+				opacity: 1;
+		}
+		66.666667%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-6 {
+		0%, 66.658730% {
+				opacity: 0;
+		}
+		66.666667%, 77.769841% {
+				opacity: 1;
+		}
+		77.777778%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-7 {
+		0%, 77.769841% {
+				opacity: 0;
+		}
+		77.777778%, 88.880952% {
+				opacity: 1;
+		}
+		88.888889%, 100% {
+				opacity: 0;
+		}
+}@keyframes d2Transition-d2-60323885-8 {
+		0%, 88.880952% {
+				opacity: 0;
+		}
+		88.888889%, 100.000000% {
+				opacity: 1;
+		}
+}]]></style><g style="animation: d2Transition-d2-60323885-0 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron"><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="476.000000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 1</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-60323885)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-60323885)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]" style='opacity:0.100000'><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-60323885)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-60323885)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-60323885)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-60323885)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-60323885)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-60323885)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-60323885" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-1 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron"><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="475.500000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 1 - step 1</text></g><g id="(k8scron -&gt; Memcache)[0]"><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2630933359)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2630933359)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]"><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2630933359)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2630933359)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2630933359)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2630933359)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-2630933359)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-2630933359)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-2630933359" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-2 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron"><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="476.000000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 1 - step 2</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3336780616)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]"><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3336780616)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]" style='opacity:0.100000'><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3336780616)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3336780616)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3336780616)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3336780616)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-3336780616)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-3336780616)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-3336780616" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-3 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron"><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="475.500000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 1 - step 3</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2846102999)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2846102999)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]" style='opacity:0.100000'><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2846102999)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2846102999)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]"><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2846102999)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2846102999)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-2846102999)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-2846102999)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-2846102999" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-4 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron"><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="476.000000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 1 - step 4</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2943771822)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2943771822)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]" style='opacity:0.100000'><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2943771822)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2943771822)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2943771822)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-2943771822)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]"><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-2943771822)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-2943771822)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-2943771822" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-5 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron" style='opacity:0.200000'><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="476.000000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 2 - step 1 - k8s disabled</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3050257699)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3050257699)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]"><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3050257699)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3050257699)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3050257699)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-3050257699)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-3050257699)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-3050257699)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-3050257699" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-6 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron" style='opacity:0.200000'><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="476.000000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 2 - step 2 - k8s disabled</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-829555268)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-829555268)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]" style='opacity:0.100000'><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-829555268)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]"><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-829555268)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-829555268)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-829555268)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-829555268)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-829555268)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-829555268" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-7 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron" style='opacity:0.200000'><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="476.000000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 2 - step 3 - k8s disabled</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-1605407629)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-1605407629)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]" style='opacity:0.100000'><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-1605407629)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-1605407629)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-1605407629)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]"><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-1605407629)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-1605407629)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]" style='opacity:0.100000'><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-1605407629)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-1605407629" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g><g style="animation: d2Transition-d2-60323885-8 12600ms infinite"  class="d2-60323885" width="930" height="400" viewBox="11 -35 930 400"><rect x="11.000000" y="-35.000000" width="930.000000" height="400.000000" rx="0.000000" class=" fill-N7" stroke-width="0" /><g id="k8scron" style='opacity:0.200000'><g class="shape" ><rect x="13.000000" y="198.000000" width="331.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.500000" y="243.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s initiate_payment_collection cronjob</text></g><g id="ec2cron"><g class="shape" ><rect x="12.000000" y="97.000000" width="332.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="178.000000" y="142.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 initiate_payment_collection cronjob</text></g><g id="Memcache"><g class="shape" ><rect x="795.000000" y="148.000000" width="119.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="854.500000" y="193.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">Memcache</text></g><g id="k8srabbit"><g class="shape" ><rect x="795.000000" y="267.000000" width="143.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="866.500000" y="312.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s RabbitMQ</text></g><g id="ec2rabbit"><g class="shape" ><rect x="795.000000" y="28.000000" width="145.000000" height="80.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="867.500000" y="73.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 RabbitMQ</text></g><g id="k8sworker"><g class="shape" ><rect x="52.000000" y="298.000000" width="292.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="198.000000" y="336.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">K8s collect_payment AMQP worker</text></g><g id="ec2worker"><g class="shape" ><rect x="51.000000" y="12.000000" width="293.000000" height="66.000000" class=" stroke-B1 fill-B6" style="stroke-width:2;" /></g><text x="197.500000" y="50.500000" class="text-bold fill-N1" style="text-anchor:middle;font-size:16px">EC2 collect_payment AMQP worker</text></g><g id="title"><g class="shape" ></g><text x="476.000000" y="-14.000000" class="text text-underline fill-N1" style="text-anchor:middle;font-size:20px">Day 2 - step 4 - k8s disabled</text></g><g id="(k8scron -&gt; Memcache)[0]" style='opacity:0.100000'><marker id="mk-3488378134" markerWidth="10.000000" markerHeight="12.000000" refX="7.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="0.000000,0.000000 10.000000,6.000000 0.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 346.000000 218.000000 L 695.000000 218.000000 S 705.000000 218.000000 705.000000 208.000000 L 705.000000 206.000000 S 705.000000 196.000000 715.000000 196.000000 L 791.000000 196.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-4108313018)" /><text x="580.500000" y="224.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; k8scron)[0]" style='opacity:0.100000'><path d="M 793.000000 212.000000 L 765.000000 212.000000 S 755.000000 212.000000 755.000000 222.000000 L 755.000000 228.000000 S 755.000000 238.000000 745.000000 238.000000 L 348.000000 238.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-4108313018)" /><text x="582.500000" y="244.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(ec2cron -&gt; Memcache)[0]" style='opacity:0.100000'><path d="M 346.000000 138.000000 L 695.000000 138.000000 S 705.000000 138.000000 705.000000 148.000000 L 705.000000 154.000000 S 705.000000 164.000000 715.000000 164.000000 L 791.000000 164.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-4108313018)" /><text x="582.500000" y="144.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">asks for lock</text></g><g id="(Memcache -&gt; ec2cron)[0]" style='opacity:0.100000'><path d="M 793.000000 180.000000 L 394.000000 180.000000 S 384.000000 180.000000 384.000000 170.000000 L 384.000000 168.000000 S 384.000000 158.000000 374.000000 158.000000 L 348.000000 158.000000" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-4108313018)" /><text x="558.500000" y="186.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">lock acquired</text></g><g id="(k8scron -&gt; k8srabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 258.000000 L 645.000000 258.000000 S 655.000000 258.000000 655.000000 268.000000 L 655.000000 284.166667 S 655.000000 294.166667 665.000000 294.166667 L 791.000000 294.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-4108313018)" /><text x="588.000000" y="264.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(ec2cron -&gt; ec2rabbit)[0]" style='opacity:0.100000'><path d="M 346.000000 118.000000 L 645.000000 118.000000 S 655.000000 118.000000 655.000000 108.000000 L 655.000000 91.833333 S 655.000000 81.833333 665.000000 81.833333 L 791.000000 81.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-end="url(#mk-3488378134)" mask="url(#d2-4108313018)" /><text x="588.000000" y="124.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">submit collect payment task</text></g><g id="(k8sworker &lt;- k8srabbit)[0]" style='opacity:0.100000'><marker id="mk-2451250203" markerWidth="10.000000" markerHeight="12.000000" refX="3.000000" refY="6.000000" viewBox="0.000000 0.000000 10.000000 12.000000" orient="auto" markerUnits="userSpaceOnUse"> <polygon points="10.000000,0.000000 0.000000,6.000000 10.000000,12.000000" class="connection fill-B1" stroke-width="2" /> </marker><path d="M 348.000000 320.833333 L 793.000000 320.833333" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-4108313018)" /><text x="569.500000" y="326.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><g id="(ec2worker &lt;- ec2rabbit)[0]"><path d="M 348.000000 55.166667 L 793.000000 55.166667" fill="none" class="connection stroke-B1" style="stroke-width:2;" marker-start="url(#mk-2451250203)" mask="url(#d2-4108313018)" /><text x="569.500000" y="61.000000" class="text-italic fill-N2" style="text-anchor:middle;font-size:16px">process collect payment task</text></g><mask id="d2-4108313018" maskUnits="userSpaceOnUse" x="11" y="-35" width="930" height="400">
+<rect x="11" y="-35" width="930" height="400" fill="white"></rect>
+<rect x="540.000000" y="208.000000" width="81" height="21" fill="black"></rect>
+<rect x="538.000000" y="228.000000" width="89" height="21" fill="black"></rect>
+<rect x="542.000000" y="128.000000" width="81" height="21" fill="black"></rect>
+<rect x="514.000000" y="170.000000" width="89" height="21" fill="black"></rect>
+<rect x="495.000000" y="248.000000" width="186" height="21" fill="black"></rect>
+<rect x="495.000000" y="108.000000" width="186" height="21" fill="black"></rect>
+<rect x="474.000000" y="310.000000" width="191" height="21" fill="black"></rect>
+<rect x="474.000000" y="45.000000" width="191" height="21" fill="black"></rect>
+</mask></g></svg></svg>

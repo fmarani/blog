@@ -1,0 +1,129 @@
+direction: right
+
+build_ami
+build_docker_image
+deploy_ami
+write_docker_tag_to_db
+mark_docker_tag_ready
+deploy_docker_image
+
+build_ami <- deploy_ami: requires
+build_docker_image <- write_docker_tag_to_db: requires
+write_docker_tag_to_db <- mark_docker_tag_ready: requires
+
+deploy_ami <- mark_docker_tag_ready: requires
+
+deploy_docker_image -> mark_docker_tag_ready: wait for
+
+"""
+title: {
+  label: Day 1
+  near: top-center
+  shape: text
+  style.font-size: 20
+  style.underline: true
+}
+
+k8scron: K8s initiate_payment_collection cronjob
+ec2cron: EC2 initiate_payment_collection cronjob
+Memcache
+k8srabbit: K8s RabbitMQ
+ec2rabbit: EC2 RabbitMQ
+k8sworker: K8s collect_payment AMQP worker
+ec2worker: EC2 collect_payment AMQP worker
+
+k8scron -> Memcache: asks for lock {
+  style.opacity: 0.1
+}
+Memcache -> k8scron: lock acquired {
+  style.opacity: 0.1
+}
+ec2cron -> Memcache: asks for lock {
+  style.opacity: 0.1
+}
+Memcache -> ec2cron: lock acquired {
+  style.opacity: 0.1
+}
+
+k8scron -> k8srabbit: submit collect payment task {
+  style.opacity: 0.1
+}
+ec2cron -> ec2rabbit: submit collect payment task {
+  style.opacity: 0.1
+}
+
+k8sworker <- k8srabbit: process collect payment task {
+  style.opacity: 0.1
+}
+ec2worker <- ec2rabbit: process collect payment task {
+  style.opacity: 0.1
+}
+
+
+scenarios: {
+  step1-2: {
+    title.label: Day 1 - step 1
+    (k8scron -> Memcache)[0] {
+      style.opacity: 1
+    }
+    (ec2cron -> Memcache)[0] {
+      style.opacity: 1
+    }
+  }
+  step1-3: {
+    title.label: Day 1 - step 2
+    (Memcache -> k8scron)[0] {
+      style.opacity: 1
+    }
+  }
+  step1-4: {
+    title.label: Day 1 - step 3
+    (k8scron -> k8srabbit)[0] {
+      style.opacity: 1
+    }
+  }
+  step1-5: {
+    title.label: Day 1 - step 4
+    (k8sworker <- k8srabbit)[0] {
+      style.opacity: 1
+    }
+  }
+
+  step2-2: {
+    title.label: Day 2 - step 1 - k8s disabled
+    k8scron {
+      style.opacity: 0.2
+    }
+    (ec2cron -> Memcache)[0] {
+      style.opacity: 1
+    }
+  }
+  step2-3: {
+    title.label: Day 2 - step 2 - k8s disabled
+    k8scron {
+      style.opacity: 0.2
+    }
+    (Memcache -> ec2cron)[0] {
+      style.opacity: 1
+    }
+  }
+  step2-4: {
+    title.label: Day 2 - step 3 - k8s disabled
+    k8scron {
+      style.opacity: 0.2
+    }
+    (ec2cron -> ec2rabbit)[0] {
+      style.opacity: 1
+    }
+  }
+  step2-5: {
+    title.label: Day 2 - step 4 - k8s disabled
+    k8scron {
+      style.opacity: 0.2
+    }
+    (ec2worker <- ec2rabbit)[0] {
+      style.opacity: 1
+    }
+  }
+}
+"""
