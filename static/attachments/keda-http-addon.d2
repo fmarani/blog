@@ -1,0 +1,14 @@
+http {
+  ingress -> interceptor proxy
+  interceptor proxy -> Service: wait until service is available
+  Service -> Deployment
+}
+
+scaling.external metrics pusher -> http.interceptor proxy: monitor inbound throughput
+
+scaling {
+  external metrics pusher -> ScaledObject: create traffic metric
+  ScaledObject -> HorizontalPodAutoscaler
+}
+
+scaling.HorizontalPodAutoscaler -> http.Deployment: add/remove pods based on traffic
