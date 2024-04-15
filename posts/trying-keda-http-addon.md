@@ -1,7 +1,7 @@
 +++
 title = "Trying KEDA HTTP addon"
 tags = ["keda", "kubernetes"]
-description = "Using for loops to generate lightly customized resources"
+description = "Exploring how it builds on top of KEDA and testing how it performs"
 date = "2024-04-02T18:19:15Z"
 +++
 
