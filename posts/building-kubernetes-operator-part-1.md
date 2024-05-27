@@ -1,8 +1,8 @@
 +++
 title = "Building a Kubernetes operator - Laying the foundations"
 tags = ["operator", "kubernetes"]
-description = "Demistifying operators by building a very basic one"
-date = "2024-04-11T18:19:15Z"
+description = "Demistifying operators by building a basic one that interacts with AWS IAM"
+date = "2024-05-27T11:19:15Z"
 +++
 
 Operator is a pattern that is commonly used in the Kubernetes ecosystem. It seems that, on average, people considers a piece of code an operator if:
