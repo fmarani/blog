@@ -1,6 +1,6 @@
 +++
 title = "Configuring mTLS for HomeAssistant on OPNSense/Nginx"
-tags = ["mtls", "opnsense", "nginx"]
+tags = ["mtls", "opnsense", "nginx", "hass"]
 description = "A more user-friendly alternative to access all your IoT devices"
 date = "2024-03-01T18:19:15Z"
 +++
