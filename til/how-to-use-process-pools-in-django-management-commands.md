@@ -1,7 +1,7 @@
 ---
 title: "How to use process pools in Django management commands"
 date: "2024-06-18T10:58:31+02:00"
-tags: []
+tags: ["django", "multiprocessing", "concurrency"]
 ---
 
 Sometimes you have to run things concurrently, and a few of those times you have to control the exact concurrency level. In a non-distributed system, controlling concurrency is easy.
