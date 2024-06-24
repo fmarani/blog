@@ -37,8 +37,19 @@ class Command(BaseCommand):
         print("starting")
         with concurrent.futures.ProcessPoolExecutor(max_workers=concurrency_level, initializer=django.setup) as executor:
             futures = [executor.submit(self.run_task, thing.id) for thing in things]
-        concurrent.futures.wait(futures, timeout=60*60)
+
+        try:
+            concurrent.futures.wait(futures, timeout=60*60)
+        except concurrent.futures.TimeoutError:
+            print("Timeout")
+
         for future in futures:
-            if not future.done():
+            if future.done():
+                try:
+                    future.result()
+                except Exception:
+                    print("An error occurred in a task")
+            else:
                 future.cancel()
+
 ```
