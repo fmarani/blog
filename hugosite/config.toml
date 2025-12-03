@@ -15,3 +15,12 @@ email = 'me@federicomarani.com'
 
 [params]
   mainSections = ["articles"]
+
+[module]
+[[module.mounts]]
+  source = '../posts'
+  target = 'content/articles'
+
+[[module.mounts]]
+  source = '../til'
+  target = 'content/til'
