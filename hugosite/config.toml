@@ -4,10 +4,6 @@ title = "Federico Marani"
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 staticDir = ["../static"]
 
-[author]
-name = 'Federico Marani'
-email = 'me@federicomarani.com'
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -15,6 +11,10 @@ email = 'me@federicomarani.com'
 
 [params]
   mainSections = ["articles"]
+
+  [params.author]
+    name = 'Federico Marani'
+    email = 'me@federicomarani.com'
 
 [module]
 [[module.mounts]]
