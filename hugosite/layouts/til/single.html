@@ -1,11 +1,7 @@
 {{ define "nav" }}
       <div class="text-right p-1">
-          <span class="text-lg p-3" href="/til">
-            Today I Learnt
-          </span>
-          <a class="text-lg p-3 border-l-2" href="/">
-            FM
-          </a>
+          <span class="text-lg p-3">Today I Learnt</span>
+          <a class="text-lg p-3 border-l-2" href="/">FM</a>
       </div>
 {{ end }}
 
@@ -14,10 +10,10 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="max-w-[70%]">
-  <article class="py-2 prose">
+<div class="max-w-full md:max-w-[80%] lg:max-w-[70%]">
+  <article class="py-2 prose prose-headings:text-primary prose-a:text-primary-dark hover:prose-a:text-primary">
     On <time datetime="{{ .Date }}" pubdate="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time>, I learnt ...
-    <div class="text-green-700 text-2xl font-bold not-prose">{{ .Title }}</div>
+    <div class="text-primary text-2xl font-bold not-prose">{{ .Title }}</div>
 
     {{ .Content }}
   </article>

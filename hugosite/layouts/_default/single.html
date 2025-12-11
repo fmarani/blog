@@ -3,10 +3,10 @@
 {{ end }}
 
 {{ define "main" }}
-<article class="py-2 prose">
-  <h1 class="text-green-700">{{ .Title }}</h1>
+<article class="py-2 prose prose-headings:text-primary prose-a:text-primary-dark hover:prose-a:text-primary">
+  <h1>{{ .Title }}</h1>
 
-  <div class="-mt-4 mb-7 italic">
+  <div class="-mt-4 mb-7 italic text-slate-600">
     <time datetime="{{ .Date }}" pubdate="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time> - {{ .ReadingTime }} minutes read
   </div>
 

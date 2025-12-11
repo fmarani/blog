@@ -1,18 +1,24 @@
 {{ define "nav" }}
-      <div class="text-center">
-        <div class="inline-block text-4xl py-2 border-b-2">Federico Marani</div>
-        <div class="pb-5 pt-2 font-light">
+      <header class="text-center">
+        <h1 class="inline-block text-3xl sm:text-4xl py-2 border-b-2">Federico Marani</h1>
+        <nav class="pb-5 pt-2 font-light" aria-label="Main navigation">
           <a class="text-lg p-3" href="/articles">
-            Articles 
+            Articles
           </a>
           <a class="text-lg p-3" href="/til">
             Today I Learnt
           </a>
-          <a class="text-xs p-3" href="http://github.com/fmarani" target="_blank" rel="me"><i class="fa fa-github fa-2x"></i></a>
-          <a class="text-xs p-3" href="http://uk.linkedin.com/in/federicomarani" target="_blank" rel="me"><i class="fa fa-linkedin fa-2x"></i></a>
-          <a class="text-xs p-3" href="http://twitter.com/flagZ" target="_blank" rel="me"><i class="fa fa-twitter fa-2x"></i></a>
-        </div>
-      </div>
+          <a class="text-xs p-3" href="http://github.com/fmarani" target="_blank" rel="me" aria-label="GitHub profile">
+            <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+          <a class="text-xs p-3" href="http://uk.linkedin.com/in/federicomarani" target="_blank" rel="me" aria-label="LinkedIn profile">
+            <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+          <a class="text-xs p-3" href="http://twitter.com/flagZ" target="_blank" rel="me" aria-label="Twitter profile">
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+          </a>
+        </nav>
+      </header>
 {{ end }}
 
 {{ define "main" }}

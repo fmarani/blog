@@ -1,7 +1,7 @@
-<div class="py-5">
+<article class="py-5">
   <div class="flex">
     <div class="grow">
-      <a class="text-green-800 text-xl" href='{{ .Permalink }}'>{{ .Title }}</a>
+      <a class="text-primary-dark text-xl" href='{{ .RelPermalink }}'>{{ .Title }}</a>
     </div>
     <div class="text-slate-800">
       <time datetime="{{ .Date }}" pubdate="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time>
@@ -13,8 +13,8 @@
     </div>
     <div class="px-1">
       {{ range .Params.tags }}
-      <a class="bg-green-100 text-slate-800 p-1 rounded text-sm" href="{{ "/tags/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+      <a class="bg-primary-light text-slate-800 p-1 rounded text-sm" href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
       {{ end }}
     </div>
   </div>
-</div>
+</article>

@@ -1,11 +1,11 @@
-<div class="my-5 text-sm text-right">
+<nav class="my-5 text-sm text-right" aria-label="Pagination">
   <span class="mx-3">
     {{if .HasPrev}}
-    <a class="bg-slate-400 text-white rounded p-2" href="{{ .Prev.URL }}">&larr;</a>
+    <a class="bg-slate-400 text-white rounded p-2" href="{{ .Prev.URL }}" aria-label="Previous page">&larr;</a>
     {{end}}
     <span class="px-2">Page {{ .PageNumber }}</span>
     {{if .HasNext}}
-    <a class="bg-slate-400 text-white rounded p-2" href="{{ .Next.URL }}">&rarr;</a>
+    <a class="bg-slate-400 text-white rounded p-2" href="{{ .Next.URL }}" aria-label="Next page">&rarr;</a>
     {{end}}
   </span>
-</div>
+</nav>

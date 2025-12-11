@@ -13,17 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link href="/css/tailwind.css" rel="stylesheet" />
     <link href="/css/syntax.css" rel="stylesheet" />
-
-    <style type="text/css" media="all">
-    body {
-      font-family: 'Roboto', sans-serif;
-    }
-    </style>
 
     {{ if .IsHome }}
         <link rel="alternate" type="application/rss+xml" href="/articles/index.xml">
@@ -37,20 +30,14 @@
   <body>
     <div class="container mx-auto max-w-screen-lg p-4">
       {{ block "nav" . }}
-      <div class="text-right p-1">
-        <a class="text-lg p-3" href="/articles">
-            Articles 
-          </a>
-          <a class="text-lg p-3" href="/til">
-            Today I Learnt
-          </a>
-          <a class="text-xs p-3" href="http://github.com/fmarani" target="_blank" rel="me"><i class="fa fa-github fa-2x"></i></a>
-          <a class="text-xs p-3" href="http://uk.linkedin.com/in/federicomarani" target="_blank" rel="me"><i class="fa fa-linkedin fa-2x"></i></a>
-          <a class="text-xs p-3" href="http://twitter.com/flagZ" target="_blank" rel="me"><i class="fa fa-twitter fa-2x"></i></a>
-          <a class="text-lg p-3 border-l-2" href="/">
-            FM
-          </a>
-      </div>
+      <nav class="text-right p-1" aria-label="Main navigation">
+        <a class="text-lg p-3" href="/articles">Articles</a>
+        <a class="text-lg p-3" href="/til">Today I Learnt</a>
+        <a class="text-xs p-3" href="http://github.com/fmarani" target="_blank" rel="me" aria-label="GitHub profile"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a class="text-xs p-3" href="http://uk.linkedin.com/in/federicomarani" target="_blank" rel="me" aria-label="LinkedIn profile"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        <a class="text-xs p-3" href="http://twitter.com/flagZ" target="_blank" rel="me" aria-label="Twitter profile"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        <a class="text-lg p-3 border-l-2" href="/">FM</a>
+      </nav>
       {{ end }}
 
       <div class="mt-7">

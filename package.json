@@ -1,0 +1,13 @@
+{
+  "name": "flagzeta-blog",
+  "version": "1.0.0",
+  "description": "Personal blog built with Hugo",
+  "scripts": {
+    "build:css": "node node_modules/tailwindcss/lib/cli.js -i ./hugosite/assets/css/input.css -o ./static/css/tailwind.css --minify",
+    "watch:css": "node node_modules/tailwindcss/lib/cli.js -i ./hugosite/assets/css/input.css -o ./static/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.4.0"
+  }
+}
