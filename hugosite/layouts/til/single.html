@@ -10,30 +10,28 @@
 {{ end }}
 
 {{ define "main" }}
-<div class="max-w-full md:max-w-[80%] lg:max-w-[70%]">
-  <article class="py-2 prose prose-headings:text-primary prose-a:text-primary-dark hover:prose-a:text-primary">
-    On <time datetime="{{ .Date }}" pubdate="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time>, I learnt ...
-    <div class="text-primary text-2xl font-bold not-prose">{{ .Title }}</div>
+<article class="py-2 prose prose-headings:text-primary prose-a:text-primary-dark hover:prose-a:text-primary max-w-none">
+  On <time datetime="{{ .Date }}" pubdate="{{ .Date }}">{{ .Date | time.Format ":date_long" }}</time>, I learnt ...
+  <div class="text-primary text-2xl font-bold not-prose">{{ .Title }}</div>
 
-    {{ .Content }}
-  </article>
+  {{ .Content }}
+</article>
 
-  <div class="text-slate-400 py-9">
-    {{ $tag_pages := .GetTerms "tags" }}
+<div class="text-slate-400 py-9">
+  {{ $tag_pages := .GetTerms "tags" }}
 
-    {{ range $tag_pages }}
-    {{ $related_tag_pages := where .Pages "Title" "!=" $.Title }}
-    {{ if $related_tag_pages }}
-    <p>Other things learnt about <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>:</p>
-    <ul class="py-3 list-disc list-inside">
-      {{ range $related_tag_pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
-      {{ end }}
-    </ul>
+  {{ range $tag_pages }}
+  {{ $related_tag_pages := where .Pages "Title" "!=" $.Title }}
+  {{ if $related_tag_pages }}
+  <p>Other things learnt about <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>:</p>
+  <ul class="py-3 list-disc list-inside">
+    {{ range $related_tag_pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
     {{ end }}
+  </ul>
+  {{ end }}
 
-    {{ end }}
-  </div>
+  {{ end }}
 </div>
 
 {{ end }}
