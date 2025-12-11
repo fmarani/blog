@@ -2,6 +2,7 @@
 date = "2015-01-14 11:45:46+00:00"
 title = "Working with caches and Memcache"
 tags = ["web architectures", "cache"]
+description = "When and how to use caching without introducing bugs"
 +++
 
 The traditional use of Memcache is to cache things like computations that take some time or result coming from external system with limited throughput. Examples of these may be database queries (sometimes long to compute), search queries coming from dedicated search services or simply feeds from other sites that don't change often.

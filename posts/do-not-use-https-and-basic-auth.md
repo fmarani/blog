@@ -2,6 +2,7 @@
 date = "2016-09-15T12:23:07+02:00"
 title = "Do not use HTTPS and basic auth"
 tags = ["security"]
+description = "Understanding the real security of HTTPS and authentication methods"
 
 +++
 

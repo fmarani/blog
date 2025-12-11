@@ -2,6 +2,7 @@
 date = "2015-11-15 12:00:00+00:00"
 title = "Assessing quality by functionality mapping"
 tags = ["product", " software"]
+description = "Measuring how technology supports your product's user journeys"
 +++
 
 This post is about measuring how the technology supports your current product, that being a single marketable entity. If we accept that the definition of quality is having as less bugs as possible, and the more code you write the more bugs you insert, you will have to accept the fact that the more code you write the less quality you will be able to get out of it. A good software project has the right amount of code to support the features that your product strategy dictates. That I think is independent of the paradigm you adopt, monolith or microservice, functional or not, etc. This post is really about the product.

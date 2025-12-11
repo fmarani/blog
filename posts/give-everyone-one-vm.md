@@ -2,6 +2,7 @@
 date = "2014-02-11 22:45:08+00:00"
 title = "Give everyone one (public) VM"
 tags = ["ansible", "devops"]
+description = "Creating throw-away environments with Ansible and DigitalOcean"
 +++
 
 At TrialReach we want to be always able to deploy clean versions of our code online. This allows us to show our work more quickly internally (and externally) and get feedback from people as early as possible, without having to wait release dates. This also give us the opportunity to test more frequently our server provisioning procedures, and having the ability to push something live anytime is a really empowering feeling.

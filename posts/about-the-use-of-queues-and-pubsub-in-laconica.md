@@ -2,6 +2,7 @@
 date = "2009-03-15 19:57:51+00:00"
 title = "About the use of queues and pubsub in Laconi.ca"
 tags = ["laconica", "pubsub", "stomp"]
+description = "Integrating message brokers and pub-sub into a microblogging service"
 +++
 
 Lately i have been working on the idea of queues and pubsub mechanisms and how it is possible to integrate them in a microblogging service. I am fascinated by messaging protocols and event pushing!

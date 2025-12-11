@@ -2,6 +2,7 @@
 date = "2013-07-31 12:09:43+00:00"
 title = "Spatial search on multiple points in Solr"
 tags = ["django", "python", "search", "solr"]
+description = "Finding the closest location across globally distributed clinical trials"
 +++
 
 At TrialReach we deal with clinical trials data, which contain a lot of spatial information. Tipically, clinical trials treat a certain set of conditions and they happen in various locations globally.

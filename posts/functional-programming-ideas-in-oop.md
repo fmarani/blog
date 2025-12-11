@@ -2,6 +2,7 @@
 date = "2011-03-27 13:29:33+00:00"
 title = "Functional Programming ideas in OOP"
 tags = ["development", "functional programming", "scala"]
+description = "How functional thinking changed my object-oriented programming style"
 +++
 
 About a year and half ago I started to be interested in Scala. Scala is a hybrid between an Object Oriented language and a Functional Language, and while i was using it i learnt to appreciate more and more the Functional part. I will not hide that the most difficult part in learning Scala was because of that.

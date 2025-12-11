@@ -2,6 +2,7 @@
 date = "2010-10-05 20:32:05+00:00"
 title = "Making complex software not complicated"
 tags = ["dependency injection", "unit-testing"]
+description = "Breaking down difficult problems by isolating dependencies"
 +++
 
 I'd like to share my thoughts with you about approaching difficult problems in software development. This is pretty much what i came to realize after many years of development.

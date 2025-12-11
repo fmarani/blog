@@ -2,6 +2,7 @@
 date = "2010-10-11 00:56:07+00:00"
 title = "Limonade"
 tags = ["microframeworks", "php"]
+description = "Building a PHP project with a minimalist microframework"
 +++
 
 The idea of microframeworks is an interesting new idea which appeared over the internet quite recently. The number of web frameworks available on internet is massive and many times i found myself puzzled about which one is the best one to use. Of course there are the ones i believe are the "classics" (django and ruby on rails) plus many minor ones. The first famous microframework was Sinatra, followed now by others.

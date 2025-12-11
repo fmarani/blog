@@ -2,6 +2,7 @@
 date = "2010-10-03 16:09:47+00:00"
 title = "Nginx rocks"
 tags = ["nginx", "web architectures"]
+description = "Serving gigabytes of images with zero restarts for months"
 +++
 
 I have installed Nginx some time ago on one of our busiest servers on our partner's networks, i promised i would have blogged about this and now it's about time. This server only serves images of products sold thorugh our e-commerce site. The first configuration was only a simple web server which was serving already resized images directly, due to the massive amount of images and the cleaning of it which was taking days, i decided to use Nginx in reverse proxy mode. I have to say i am still impressed, after 6-7 months, about this software. I've never had to restart it one time except for little configuration tweaks.

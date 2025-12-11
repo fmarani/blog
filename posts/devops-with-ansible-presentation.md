@@ -2,6 +2,7 @@
 date = "2013-12-02 13:13:47+00:00"
 title = "DevOps with Ansible presentation"
 tags = ["ansible", "devops", "djugl"]
+description = "How TrialReach automates server provisioning with Ansible"
 +++
 
 Presentation I gave at DJUGL in September 2013 about how TrialReach uses Ansible to automate server provisioning.

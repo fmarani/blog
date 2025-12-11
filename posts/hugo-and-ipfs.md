@@ -2,6 +2,7 @@
 date = "2016-09-14T17:04:43+02:00"
 title = "Rebuilding my site with Hugo (and IPFS)"
 tags = ["hugo", "static sites", "ipfs"]
+description = "Moving from Django to a static site generator with distributed hosting"
 
 +++
 

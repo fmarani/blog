@@ -2,6 +2,7 @@
 date = "2010-10-17 13:09:26+00:00"
 title = "Dbunit testing"
 tags = ["php", "unit-testing"]
+description = "Testing PHP database code with PHPUnit and DBUnit"
 +++
 
 This article is about PHPUnit used in conjunction with DBUnit to test PHP code that interacts with a database server. 

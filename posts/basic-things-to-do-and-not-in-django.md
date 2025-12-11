@@ -2,6 +2,7 @@
 date = "2012-09-23 19:33:30+00:00"
 title = "Basic things to do and not in Django"
 tags = ["django"]
+description = "Common mistakes and best practices for Django projects"
 +++
 
 Make software dependent on absolute paths: One of the projects i was working on had all module imports including the project main folder name. That in turn made impossible to have the same project installed 2 times in the same folder with 2 distinct names. (e.g. 2 versions of the staging site). Sometime is even worse than this, when you have a full path in the code. These should always be in configuration files which are changeable at deployment.

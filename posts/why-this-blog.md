@@ -2,6 +2,7 @@
 date = "2009-03-15 18:39:48+00:00"
 title = "Why this blog?"
 tags = [""]
+description = "Real-time communication as the bridge between Web 2.0 and 3.0"
 +++
 
 Humans need interaction. Web 2.0 has been, and still is, all about human interaction. Wikis, blogs, microblogs are all a wonderful way to organize information but, more important, are methods to empower the interaction with the other internet users. The web however is still far from "human" interactions... why we have to go to Facebook to see if there's new content from friends?? Why the web can't just say to me.. "Your friend has a new photoalbum". Another example is the news.. Why i can't go on the website of my preferite news agency and tell them that i want to be notified when an event with tag=X happens? Isn't this more "human"??

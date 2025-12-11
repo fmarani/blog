@@ -2,6 +2,7 @@
 date = "2011-03-30 00:42:56+00:00"
 title = "How small websites become big"
 tags = ["scalability", "web architectures"]
+description = "Guidelines for scaling web applications from small to high-traffic"
 +++
 
 There is no secret recipe, there is no list of check boxes to tick... just some guidelines. Part of these lessons have been learned in the hard way, part because i have been always taught that if you want to be the best, you have to copy the best. There is plenty of literature on Internet about this... read, understand and copy.

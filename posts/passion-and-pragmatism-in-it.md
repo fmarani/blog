@@ -2,6 +2,7 @@
 date = "2011-11-03 14:49:36+00:00"
 title = "Passion and Pragmatism in IT"
 tags = ["development"]
+description = "Balancing the love of hacking with getting things done"
 +++
 
 Do what you love is what, for instance, Steve Jobs said. It does not get more true than that. Hacking has been labeled as a negative word, but for me has a positive meaning, which is the impulse of people to open things, learn how they work and change it to make it better. Hacking for me is a passion, something I always do with pleasure.

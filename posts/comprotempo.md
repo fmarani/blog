@@ -2,6 +2,7 @@
 date = "2015-03-11 12:00:00+00:00"
 title = "Another failure, another lesson - comprotempo.it"
 tags = ["startups", " comprotempo"]
+description = "Why building a marketplace for handymen in Italy didn't work"
 +++
 
 When it came out, I was fashinated by TaskRabbit. I thought that a generic marketplace for handymen was the perfect tool for this decade. We have lots of young unemployment in Italy and there were also middle-class people willing to pay for someone doing chores for them. The idea was simple: putting both sides in touch by agreeing location, type of task and price. The advantages for handymen were money for work, the advantages for the committant is to "buy" someone else's time (hence the "comprotempo" name)

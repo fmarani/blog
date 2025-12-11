@@ -2,6 +2,7 @@
 date = "2016-09-24T23:16:56+02:00"
 title = "A Python microservice stack"
 tags = ["microservices", "soa", "python", "architecture"]
+description = "Building autonomous services with GRPC, Consul, and Kafka"
 
 +++
 

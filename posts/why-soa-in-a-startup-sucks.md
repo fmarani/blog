@@ -2,6 +2,7 @@
 date = "2012-01-22 21:49:33+00:00"
 title = "Why SOA in a startup sucks"
 tags = ["service oriented architecture", "soa", "startup"]
+description = "The hidden costs of building distributed systems when speed matters"
 +++
 
 Service Oriented Architectures as i intend are architectures where each component is deployable and usable separately from others. Take as example Amazon, much of their software stack is offered as a service, mainly through an HTTP interface, and marketed as SaaS.

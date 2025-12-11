@@ -2,6 +2,7 @@
 date = "2012-05-06 11:39:37+00:00"
 title = "Ubuntu on EC2, the simple way."
 tags = ["amazon ec2", "web architectures"]
+description = "Running compute-heavy workloads on Amazon's virtual machines"
 +++
 
 Problem

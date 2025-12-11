@@ -2,6 +2,7 @@
 date = "2015-01-16 12:51:25+00:00"
 title = "Monitoring servers with Munin"
 tags = ["monitoring"]
+description = "Simple server monitoring with minimal setup and maintenance"
 +++
 
 I normally use Munin for server monitoring, it is very easy to install and the kind of tool with not much setup. It may not be the best tool when you have many servers, due to static graph generation. Munin 2, released recently, has a few changes in that regard, they might have improved that.

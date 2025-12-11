@@ -2,6 +2,7 @@
 date = "2012-11-25 17:30:21+00:00"
 title = "Technology behind tools.seogadget.co.uk"
 tags = ["celery", "django", "scalability"]
+description = "Building a scalable link analysis tool with Django and Celery"
 +++
 
 Scalability was one of the primary concerns when we started building the tool. Essentially, the tool gathers numbers about links you post, it is quite straightforward. To gather these numbers, our tool uses many external APIs and in a way acts as a sort of proxy between the user and many other 3rd party API providers, on top of which some internal indicators are derived. Many tools allow you to do that, but, regarding scalability, some ways are better than others. Much better actually. Gathering information for 1000 urls a day is different than doing it on 1 million, lots of challenges came in the way.

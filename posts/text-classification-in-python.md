@@ -2,6 +2,7 @@
 date = "2012-03-21 22:44:23+00:00"
 title = "Text classification in Python"
 tags = ["nltk", "python", "text analysis"]
+description = "Building a simple classifier with NLTK and machine learning"
 +++
 
 Python and NLTK form quite a good platform to do text analysis. There is a lot of information on Internet, nevertheless i have not found a clean and simple example of a classifier. Text classifiers come from techniques such as Natural Language Processing and Machine Learning, in fact i think they are exactly in the middle of these.

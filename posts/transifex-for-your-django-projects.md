@@ -2,6 +2,7 @@
 date = "2013-01-31 15:39:37+00:00"
 title = "Transifex for your Django projects"
 tags = ["i18n"]
+description = "Integrating translation management into your Django workflow"
 +++
 
 I am assuming you already created a project on Transifex (in this example is TxProject), either on the hosted version or on the downloadable version, and all the users you need are on there (just one to start is enough). I am also assuming i18n is already setup and you have at least 2 languages already in your project.

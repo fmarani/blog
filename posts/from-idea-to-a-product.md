@@ -2,6 +2,7 @@
 date = "2012-05-17 00:28:34+00:00"
 title = "From idea to a product"
 tags = ["machine learning", "startup"]
+description = "Building a machine learning product from vision to first customer"
 +++
 
 This is my history in one of the first startups I worked for, very small, but nevertheless a very good learning experience.

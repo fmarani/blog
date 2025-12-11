@@ -2,6 +2,7 @@
 date = "2009-04-02 23:15:09+00:00"
 title = "Tag-based routing in laconi.ca"
 tags = ["laconica", "pubsub"]
+description = "Using STOMP and JMS selectors to filter microblog content"
 +++
 
 Following the last article, i have been experimenting again on laconica and pubsub, this time on the idea of "<a href="http://metajack.im/2009/01/22/filtering-the-real-time-web/" target="_blank">filtering the real time web</a>".

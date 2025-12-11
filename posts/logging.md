@@ -2,6 +2,7 @@
 date = "2011-04-08 01:00:10+00:00"
 title = "Logging"
 tags = ["python", "logging"]
+description = "Best practices for application logging in production systems"
 +++
 
 I work on e-commerce platforms, logging is a critical component in this area. Learn how to do it correctly will allow you and everybody else to save time when problems happen. Sometimes it is not just about saving time, but also being able to give correct answers to customers when things go wrong. When interacting with third parties, logging is even more important, because it allows you to understand where the problem lies, in your code or in the external service.

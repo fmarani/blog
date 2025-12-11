@@ -2,6 +2,7 @@
 date = "2010-10-05 20:01:04+00:00"
 title = "Scala"
 tags = ["languages", "scala"]
+description = "Why Scala became one of my favorite languages"
 +++
 
 This had quickly become one of my favourite languages. If you see it from the point of view of expressiveness, it is really close to Python. It is quite new in the world of programming languages, but it is mature enough to be used by big players such as Twitter and Foursquare.

@@ -2,6 +2,7 @@
 date = "2014-01-26 15:24:59+00:00"
 title = "Why my first startup failed - tabs.to"
 tags = ["startup", "tabs.to"]
+description = "Learning the hard way about overengineering and burning out"
 +++
 
 

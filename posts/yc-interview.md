@@ -2,6 +2,7 @@
 date = "2016-05-01 20:43:48+00:00"
 title = "YCombinator interview"
 tags = ["startups", " talentrank"]
+description = "What I learned from interviewing at YC in California"
 +++
 
 ![YC](/attachments/ycombinator.png)

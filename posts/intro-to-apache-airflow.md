@@ -2,6 +2,7 @@
 date = "2017-05-16T10:17:15+01:00"
 title = "Introduction to Apache Airflow"
 tags = ['data', 'big data', 'etl']
+description = "Managing complex data workflows with dependencies and scheduling"
 
 +++
 

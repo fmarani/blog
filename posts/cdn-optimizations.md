@@ -2,6 +2,7 @@
 date = "2010-10-17 13:55:49+00:00"
 title = "CDN Optimizations"
 tags = ["nginx", "web architectures"]
+description = "How extending nginx cache duration improved site performance"
 +++
 
 One of our most trafficked website is on average sustaining 300000 page views per day. Each page has normally a considerable amount of JavaScript, some of it activated only after the whole DOM has been loaded. 
