@@ -11,5 +11,29 @@
   </div>
 
   {{ .Content }}
+
+  <hr class="mt-16 mb-8 border-slate-300" />
+
+  <footer class="text-sm text-slate-600">
+    <p class="mb-4">
+      Something wrong?
+      <a href="https://github.com/fmarani/blog/edit/main/posts/{{ .File.LogicalName }}">Suggest an improvement</a>
+      or
+      <a href="https://github.com/fmarani/blog/issues/new?title=Comment%20on%20%22{{ .Title }}%22&body=Article:%20{{ .Title }}%0AURL:%20{{ .Permalink }}">add a comment</a>
+      (see <a href="https://github.com/fmarani/blog/commits/main/posts/{{ .File.LogicalName }}">article history</a>)
+    </p>
+
+    {{ if .Params.Tags }}
+    <p class="mb-4">
+      Tagged with:
+      {{ range $index, $tag := .Params.Tags }}{{ if ne $index 0 }}, {{ end }}<a href="/tags/{{ $tag | urlize }}">{{ $tag }}</a>{{ end }}
+    </p>
+    {{ end }}
+
+    <p>
+      Copyright &copy; 2012-{{ now.Format "2006" }} {{ .Site.Params.author.name }}<br/>
+      {{ .Site.Copyright }}
+    </p>
+  </footer>
 </article>
 {{ end }}
